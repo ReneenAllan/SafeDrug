@@ -38,7 +38,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hKZ-f6-t2b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-633.33333333333337" y="103.79464285714285"/>
+            <point key="canvasLocation" x="-2565" y="-308"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="cbB-F5-2LZ">
@@ -48,7 +48,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="sectionIndexBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="sectionIndexBackgroundColor" red="0.98834151029586792" green="0.9719352126121521" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <sections>
                             <tableViewSection headerTitle="Medications" id="RW3-IY-siQ">
                                 <cells>
@@ -66,6 +66,10 @@
                                                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
                                                 </button>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="acetominophen" translatesAutoresizingMaskIntoConstraints="NO" id="CVT-Dg-OxS">
+                                                    <rect key="frame" x="20" y="9" width="80" height="80"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="hDc-qs-0S5" firstAttribute="top" secondItem="eVJ-vY-4oW" secondAttribute="topMargin" constant="16" id="84Q-vt-9Fn"/>
@@ -88,6 +92,10 @@
                                                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
                                                 </button>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="aml" translatesAutoresizingMaskIntoConstraints="NO" id="ho1-ZE-Rxd">
+                                                    <rect key="frame" x="20" y="5" width="80" height="80"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="XeF-L0-CGV" firstAttribute="top" secondItem="cff-x8-5kN" secondAttribute="topMargin" constant="16" id="Cet-LG-A7F"/>
@@ -110,6 +118,10 @@
                                                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
                                                 </button>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="amox" translatesAutoresizingMaskIntoConstraints="NO" id="Yr3-Pq-XBI">
+                                                    <rect key="frame" x="20" y="4" width="80" height="80"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="bottomMargin" secondItem="n7f-f1-Gt7" secondAttribute="bottom" constant="16" id="VQj-3i-vXp"/>
@@ -132,6 +144,10 @@
                                                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
                                                 </button>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="azith" translatesAutoresizingMaskIntoConstraints="NO" id="kR7-PP-fqT">
+                                                    <rect key="frame" x="20" y="5" width="80" height="80"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="oW6-Kb-yxQ" firstAttribute="top" secondItem="2Sh-gv-TMq" secondAttribute="topMargin" constant="16" id="40v-JC-eBS"/>
@@ -154,6 +170,10 @@
                                                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
                                                 </button>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hydro" translatesAutoresizingMaskIntoConstraints="NO" id="Jp4-4v-hRi">
+                                                    <rect key="frame" x="20" y="4" width="80" height="80"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="omp-7s-mBK" firstAttribute="leading" secondItem="Cmv-SG-iWf" secondAttribute="leadingMargin" constant="105" id="0c6-ia-6A3"/>
@@ -175,7 +195,14 @@
                                                     <state key="normal" title="Levothyroxine">
                                                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
+                                                    <connections>
+                                                        <segue destination="PhG-zs-Tuo" kind="show" id="e8o-7u-mag"/>
+                                                    </connections>
                                                 </button>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="levo" translatesAutoresizingMaskIntoConstraints="NO" id="AeS-Bm-aoy">
+                                                    <rect key="frame" x="20" y="4" width="80" height="80"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="bottomMargin" secondItem="xOf-VC-RdY" secondAttribute="bottom" constant="16" id="cqg-OJ-buR"/>
@@ -197,7 +224,14 @@
                                                     <state key="normal" title="Lipitor">
                                                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
+                                                    <connections>
+                                                        <segue destination="A0o-pM-Aoy" kind="show" id="tTz-mM-7UQ"/>
+                                                    </connections>
                                                 </button>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lip" translatesAutoresizingMaskIntoConstraints="NO" id="mnh-kS-dSB">
+                                                    <rect key="frame" x="20" y="4" width="80" height="80"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="bottomMargin" secondItem="yaA-xA-GSf" secondAttribute="bottom" constant="16" id="HXJ-2W-KSy"/>
@@ -219,7 +253,14 @@
                                                     <state key="normal" title="Lisinopril">
                                                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
+                                                    <connections>
+                                                        <segue destination="Q68-Tl-A7G" kind="show" id="Y6b-qs-2sF"/>
+                                                    </connections>
                                                 </button>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lisino" translatesAutoresizingMaskIntoConstraints="NO" id="z1y-Z1-PDC">
+                                                    <rect key="frame" x="20" y="4" width="80" height="80"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="bottomMargin" secondItem="HfT-wj-YKG" secondAttribute="bottom" constant="16" id="AYZ-oK-4wk"/>
@@ -241,7 +282,14 @@
                                                     <state key="normal" title="Metformin">
                                                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
+                                                    <connections>
+                                                        <segue destination="Arr-6b-TNH" kind="show" id="chV-C5-TmS"/>
+                                                    </connections>
                                                 </button>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="metf" translatesAutoresizingMaskIntoConstraints="NO" id="9lp-0n-1iG">
+                                                    <rect key="frame" x="20" y="4" width="80" height="80"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="Idg-tM-DsI" firstAttribute="leading" secondItem="0fM-fF-ZHL" secondAttribute="leadingMargin" constant="105" id="34Z-ey-EcY"/>
@@ -263,7 +311,14 @@
                                                     <state key="normal" title="Simvastatin">
                                                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
+                                                    <connections>
+                                                        <segue destination="GQ4-hM-mGE" kind="show" id="eHt-Ev-Prk"/>
+                                                    </connections>
                                                 </button>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sim" translatesAutoresizingMaskIntoConstraints="NO" id="E95-oW-zHR">
+                                                    <rect key="frame" x="20" y="4" width="80" height="80"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="bottomMargin" secondItem="thM-7A-d0e" secondAttribute="bottom" constant="16" id="Lfz-aH-2Cw"/>
@@ -283,10 +338,286 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="08E-KW-UIh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="89.855072463768124" y="105.80357142857143"/>
+            <point key="canvasLocation" x="-1842" y="-306"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hk0-dH-5Dz">
+            <objects>
+                <viewController id="PhG-zs-Tuo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dtx-6f-7Pw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jGu-qB-XHZ">
+                                <rect key="frame" x="20" y="44" width="70" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="&lt; Back"/>
+                                <connections>
+                                    <segue destination="IzQ-v8-wiG" kind="show" id="Wg6-8s-Ec9"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="levo" translatesAutoresizingMaskIntoConstraints="NO" id="8tf-3p-qvh">
+                                <rect key="frame" x="20" y="136" width="374" height="297"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G13-dd-z5h">
+                                <rect key="frame" x="20" y="441" width="374" height="360"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">→ Purpose: 
+Treats hypothyroidism
+
+→ Top Side Effects: 
+Increased appetite, weight loss, heat sensitivity, and excessive sweating
+
+→ Do Not Take With: 
+Drugs for treatment of obesity or weight loss
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Levothyroxine" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fED-ud-S5a">
+                                <rect key="frame" x="114" y="94" width="186" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <color key="textColor" red="0.08020579069852829" green="0.015191749669611454" blue="0.96084314584732056" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99575954675674438" green="0.9809529185295105" blue="0.9529382586479187" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="NJh-h6-ggf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s5x-ps-xXc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-983" y="345"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="bxw-9s-flp">
+            <objects>
+                <viewController id="A0o-pM-Aoy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BtV-op-CTh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5sh-lk-bto">
+                                <rect key="frame" x="20" y="44" width="61" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="&lt; Back"/>
+                                <connections>
+                                    <segue destination="IzQ-v8-wiG" kind="show" id="qNa-ZI-S0J"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lip" translatesAutoresizingMaskIntoConstraints="NO" id="BV5-NZ-haV">
+                                <rect key="frame" x="28" y="141" width="363" height="309"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HcY-xk-UlP">
+                                <rect key="frame" x="24" y="410" width="367" height="452"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">→ Purpose: 
+Treats high cholesterol, prevents chest pain, stroke, and heart attacks in individuals with Coronary Artery Disease
+
+→ Top Side Effects: 
+Constipation, diarrhea, fatigue, gas, heartburn, and headache
+
+→ Do Not Take With:  
+Vitamin and mineral supplements, herbal supplements, specific forms of Magnesium,  Red yeast, and Berberine</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lipitor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JHR-U4-Blw">
+                                <rect key="frame" x="165" y="99" width="84" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <color key="textColor" red="0.0" green="0.0096537812081498586" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99575954675674438" green="0.9809529185295105" blue="0.9529382586479187" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="ioz-DZ-OhV"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YAe-qR-P36" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-150.72463768115944" y="346.875"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="bNE-YB-fY6">
+            <objects>
+                <viewController id="Q68-Tl-A7G" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wKD-al-sM2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1is-Je-VRo">
+                                <rect key="frame" x="20" y="44" width="61" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="&lt; Back"/>
+                                <connections>
+                                    <segue destination="IzQ-v8-wiG" kind="show" id="FF1-To-eZT"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lisino" translatesAutoresizingMaskIntoConstraints="NO" id="nad-sX-TZa">
+                                <rect key="frame" x="20" y="127" width="374" height="288"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lisinopril" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="da6-9E-tiC">
+                                <rect key="frame" x="147" y="85" width="120" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <color key="textColor" red="0.08020579069852829" green="0.015191749669611454" blue="0.96084314584732056" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bp8-Yk-aqB">
+                                <rect key="frame" x="20" y="436" width="360" height="398"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">→  Purpose: 
+Treats high blood pressure, congestive heart failure, and prevents kidney failure caused by high blood pressure and diabetes
+
+→ Top Side Effects:  
+Dizziness, nausea, headache, and drowsiness
+
+→ Do Not Take With:  
+Aspirin, Diuretics, Potassium supplements, the antidepressant Lithium, and other ACE inhibitors 
+</string>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="21"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.98110285755379412" blue="0.9509803921568627" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="SD0-q7-8NH"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RHR-YM-imF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="682.60869565217399" y="353.57142857142856"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="JLv-x4-72q">
+            <objects>
+                <viewController id="Arr-6b-TNH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6rl-NX-i0o">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dm5-sp-EQf">
+                                <rect key="frame" x="20" y="44" width="61" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="&lt; Back"/>
+                                <connections>
+                                    <segue destination="IzQ-v8-wiG" kind="show" id="3om-fN-1pi"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="metf" translatesAutoresizingMaskIntoConstraints="NO" id="TGJ-7e-iNH">
+                                <rect key="frame" x="27" y="127" width="361" height="297"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Metformin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EX0-1b-cFw">
+                                <rect key="frame" x="139" y="85" width="136" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <color key="textColor" red="0.0" green="0.0096537812081498586" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ou-dY-7rs">
+                                <rect key="frame" x="27" y="432" width="361" height="375"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">→ Purpose:
+Treats type two diabetes
+
+→ Top Side Effects:  
+Nausea, vomiting, gas, bloating, diarrhea, and loss of appetite
+
+→ Do Not Take With: 
+Antibiotics such as Rifampin and Rifabutin if on oral contraceptive medication  </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99575954675674438" green="0.9809529185295105" blue="0.9529382586479187" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="Cfi-fI-YUN"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jjx-iw-oFw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1501.449275362319" y="357.58928571428572"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="o69-YN-4f3">
+            <objects>
+                <viewController id="GQ4-hM-mGE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IbU-Jv-Zun">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VqA-jR-Rhh">
+                                <rect key="frame" x="20" y="44" width="61" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="&lt; Back"/>
+                                <connections>
+                                    <segue destination="IzQ-v8-wiG" kind="show" id="czN-7c-XqG"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sim" translatesAutoresizingMaskIntoConstraints="NO" id="zKJ-4F-EkG">
+                                <rect key="frame" x="27" y="125" width="360" height="285"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Simvastatin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AlU-HW-6JZ">
+                                <rect key="frame" x="129" y="83" width="155" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <color key="textColor" red="0.08020579069852829" green="0.015191749669611454" blue="0.96084314584732056" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KJs-Hd-90h">
+                                <rect key="frame" x="26" y="418" width="360" height="401"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">→ Purpose: 
+Treats high cholesterol, reduces the risk of stroke, death from heart disease, and risk of heart attacks
+
+→ Top Side Effects: 
+Headache, nausea, vomiting, and diarrhea
+
+→ Do Not Take With:
+Blood thinners (Aspirin) or azole antifungal 
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99575954675674438" green="0.9809529185295105" blue="0.9529382586479187" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="8Ni-Zj-Ved"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r7K-2Z-Icx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2326.0869565217395" y="358.92857142857139"/>
         </scene>
     </scenes>
     <resources>
         <image name="SafeDrugLogo" width="153" height="153"/>
+        <image name="acetominophen" width="432" height="432"/>
+        <image name="aml" width="542" height="544"/>
+        <image name="amox" width="388" height="388"/>
+        <image name="azith" width="388" height="388"/>
+        <image name="hydro" width="576" height="434"/>
+        <image name="levo" width="566" height="404"/>
+        <image name="lip" width="402" height="404"/>
+        <image name="lisino" width="530" height="404"/>
+        <image name="metf" width="406" height="404"/>
+        <image name="sim" width="506" height="404"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="eHt-Ev-Prk"/>
+        <segue reference="czN-7c-XqG"/>
+    </inferredMetricsTieBreakers>
 </document>
